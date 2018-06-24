@@ -4,4 +4,5 @@ install: "pip install Lektor"
 script: "lektor build"
 deploy:
   provider: script
+  skip-cleanup: true
   script: "lektor deploy ghpages"
