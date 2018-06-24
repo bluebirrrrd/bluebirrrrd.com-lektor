@@ -1,2 +1,4 @@
 [project]
 name = Bluebirrrrd.com
+[servers.ghpages]
+target = ghpages+https://bluebirrrrd/bluebirrrrd.com.git
