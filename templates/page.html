@@ -1,6 +1,9 @@
-{% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
+{% extends "blog.html" %}
 {% block body %}
+  {% if this._path == '/' %}
+  {{ super() }}
+  {% else %}
   <h2>{{ this.title }}</h2>
   {{ this.body }}
+  {% endif %}
 {% endblock %}
