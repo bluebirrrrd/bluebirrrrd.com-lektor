@@ -3,27 +3,12 @@ body {
     margin: 50px 25px;
 }
 
-a {
-    color: #2a99b6;
-}
-
-a:hover {
-    color: #33bbdf;
-}
-
 header, footer, div.page {
     width: 100%;
-    max-width: 1080px;
+    max-width: 800px;
     margin: 0 auto;
     background: #ffffff;
     padding: 20px 30px;
-}
-
-header h1 {
-    color: #00495c;
-    margin: 0;
-    font-weight: normal;
-    font-size: 42px;
 }
 
 header nav ul {
@@ -38,10 +23,31 @@ header nav ul li {
     padding: 0;
 }
 
+header h1 {
+    color: #27B0EA;
+    margin: 0;
+    font-weight: normal;
+    font-size: 42px;
+}
+
 div.page {
     background: #ffffff;
 }
 
-h2 {
-    color: #00495c;
+a {
+    color: #5c5c5c;
+}
+
+a:hover {
+    color: #888;
+}
+
+h2, h2 *, h2 a:hover {
+    color: #3c3c3c;
+    font-weight: normal;
+}
+
+p {
+    color: #3c3c3c;
+    line-height: 1.4;
 }
