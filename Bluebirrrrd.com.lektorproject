@@ -2,3 +2,6 @@
 name = Bluebirrrrd.com
 [servers.ghpages]
 target = ghpages+https://bluebirrrrd/bluebirrrrd.com
+
+[packages]
+lektor-read-full-post = 0.2
